@@ -1,0 +1,20 @@
+apiVersion: v2
+name: my-nginx
+description: A Helm chart for Kubernetes
+
+# A list of keywords to search for the chart in repositories
+keywords:
+  - nginx
+  - webserver
+
+# Home and sources URLs to the source code and project page
+home: https://nginx.org
+sources:
+  - https://github.com/nginx/nginx
+
+# The version of the application being deployed
+version: 0.1.0
+
+# The version of the chart itself
+appVersion: "1.16.0"
+

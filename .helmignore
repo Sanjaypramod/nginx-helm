@@ -1,0 +1,20 @@
+# Patterns to ignore when packaging Helm charts.
+# This supports shell glob matching, relative path matching, and regex matching.
+# Glob examples:
+#   - '*.txt' matches all .txt files.
+#   - '*/temp*' matches all files in a directory named `temp` (or containing `temp` in their names).
+#   - 'foo/bar' matches a file or directory named `bar` in the `foo` directory.
+# Regex examples:
+#   - '\.git' matches a literal `.git` directory (not a file extension).
+#   - '\.png$' matches all .png files.
+# Relative path examples:
+#   - 'foo' matches a file or directory named `foo` in the current directory.
+#   - 'foo/*' matches all files or directories within `foo`.
+*.swp
+*.bak
+*.tmp
+.DS_Store
+.git
+.hg
+.svn
+
